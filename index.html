@@ -6,11 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+
+    <!-- CSS way 1: Style Tag
+        
+        <style>
+        body{
+            color: blue;
+        }
+    </style> -->
+    <!-- 3rd way of doing CSS -->
+    <link href="style.css" rel="stylesheet"/>
 </head>
 
 <body>
-    <h1>Welcome to Garima's component Library</h1>
-    <p>I am attending a bootcamp. The session is akin to how it works. You get a design, generally in Figma, sketch etc.
+    <h1 id="lib-header">Welcome to Garima's component Library</h1>
+    <!-- style ="color: red" -->
+    <p class="para">I am attending a bootcamp. The session is akin to how it works. You get a design, generally in Figma, sketch etc.
         And then you have to replicate that design using CSS. Where new developers go wrong sometimes is not using the
         right semantic element for components, and thus, we'll cover that topic first.</p>
     <hr>
@@ -21,16 +32,16 @@
     <h2>Second biggest heading</h2>
     <h3>Third biggest heading</h3>
 
-    <p>This session is going to be verbose. Which means there's less concepts and more keyword based coding. This is the
+    <p class="para">This session is going to be verbose. Which means there's less concepts and more keyword based coding. This is the
         nature of HTML/CSS, that you need to know the right keyword.</p>
-    <small>Smaller text</small>
+    <small class="para">Smaller text</small>
 
     <hr>
 
     <h2>@containers</h2>
 
     <h3>Fluid container</h3>
-    <div>go till end</div>
+    <div class="para">go till end</div>
 
     <h3>Center container</h3>
     <div>remain in center</div>
@@ -98,7 +109,30 @@
         <h1>heading inside hero</h1>
     </header>
 
+    <hr>
 
+    <h2>@Sections</h2>
+
+    <section>
+    <h3>White section</h3>
+    <p>White background</p>
+    </section>
+
+    <section>
+    <h3>Off-white section</h3>
+    <p>Grey background</p>
+    </section>
+
+    <footer>
+        <div>Some small heading inside footer</div>
+        <ul>
+            <li>Social One</li>
+            <li>Social Two</li>
+            <li>Social Three</li>
+        </ul>
+    </footer>
+
+    
 </body>
 
 </html>
