@@ -90,10 +90,15 @@ padding: 0rem 0.5rem;
 .hero .hero-heading {
     padding-top: 1rem;
     color:var(--emerald-green);   
+    text-align: center;
 }
 
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
 
+/** sections **/
 
+.section h1 {
+    text-align: center;
+}
