@@ -89,6 +89,12 @@ hr {
     padding-top: 6rem;
 }
 
+.hero-blogs {
+    padding: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
 .hero .hero-img {
     max-width: 350px;
     display: block;
