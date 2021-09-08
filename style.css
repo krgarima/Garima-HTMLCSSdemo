@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color: blueviolet;
+    --primary-color: #FCD34D;
     --emerald-green: #6EE7B7;
-    --off-white: #ccd6e9;
+    --off-white: #E5E7EB;
+    --grey:#848a94;
 }
 
 body {
@@ -37,9 +38,9 @@ hr {
 }
 
 .link-secondary {
-    color: var(--primary-color);
-    border-radius: 5.5rem;
-    border: 1px solid var(--primary-color);
+    color: black;
+    border-radius: 0.5rem;
+    border: 1px solid black;
 }
 
 /** look into BEM naming convention for CSS **/
@@ -58,7 +59,7 @@ hr {
 /** navigation **/
 
 .navigation {
-    background-color: yellowgreen;
+    background-color: var(--primary-color);
     color: white;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
@@ -95,7 +96,7 @@ hr {
 
 .hero .hero-heading {
     padding-top: 1rem;
-    color: var(--emerald-green);
+    color: var(--grey);
     text-align: center;
 }
 
@@ -133,4 +134,9 @@ footer {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
