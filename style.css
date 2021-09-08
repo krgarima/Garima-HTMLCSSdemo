@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color: blueviolet; 
-    --emerald-green: #6EE7B7;}
+    --primary-color: blueviolet;
+    --emerald-green: #6EE7B7;
+    --off-white: #ccd6e9;
+}
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -16,9 +18,10 @@ hr {
 .container {
     padding: 1.0rem 1.5rem;
 }
+
 .container-center {
     max-width: 600px;
-    margin:auto;
+    margin: auto;
 }
 
 .link {
@@ -31,10 +34,11 @@ hr {
     border-radius: 0.5rem;
     color: white;
 }
+
 .link-secondary {
     color: var(--primary-color);
     border-radius: 5.5rem;
-    border:1px solid var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
 
 /** look into BEM naming convention for CSS **/
@@ -46,8 +50,8 @@ hr {
 }
 
 .list-item-inline {
-display: inline;
-padding: 0rem 0.5rem;
+    display: inline;
+    padding: 0rem 0.5rem;
 }
 
 /** navigation **/
@@ -59,15 +63,16 @@ padding: 0rem 0.5rem;
     border-bottom-left-radius: 1rem;
 }
 
-    .navigation .nav-brand {
-        font-weight: bold;
-        font-size: 1.1rem;
-    }
-    .navigation .nav-pills {
-    text-align: right;
-    }
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
 
-    .navigation .link {
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
     color: white;
 }
 
@@ -89,7 +94,7 @@ padding: 0rem 0.5rem;
 
 .hero .hero-heading {
     padding-top: 1rem;
-    color:var(--emerald-green);   
+    color: var(--emerald-green);
     text-align: center;
 }
 
@@ -99,6 +104,14 @@ padding: 0rem 0.5rem;
 
 /** sections **/
 
+.section{
+    padding: 1.5rem;
+}
+
 .section h1 {
     text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
 }
