@@ -18,7 +18,7 @@ hr {
 
 /** conatiners **/
 .container {
-    padding: 1.0rem 0.5rem;
+    padding: 1.0rem 0rem;
 }
 
 .container-center {
@@ -146,6 +146,7 @@ footer {
 
 .footer ul {
     padding-inline-start: 0px;
+    margin-top: 1rem;
 }
 
 .footer .footer-header {
@@ -155,6 +156,7 @@ footer {
 
 .line {
     color: var(--primary-color);
+    margin:3rem 0rem;
 }
 
 /** spaces **/
