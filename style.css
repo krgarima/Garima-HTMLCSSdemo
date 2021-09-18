@@ -167,3 +167,12 @@ footer {
 .head-blogs {
     color: var(--grey);
 }
+
+h3{
+    color: #0E7490;
+    background-color: rgb(252, 250, 244);
+}
+
+h2{
+    background-color: rgb(252, 250, 244);
+}
