@@ -156,6 +156,7 @@ footer {
 .line {
     color: var(--primary-color);
     margin:3rem 0rem;
+    padding: 3rem;
 }
 
 /** spaces **/
